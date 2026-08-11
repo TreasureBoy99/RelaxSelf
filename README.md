@@ -13,6 +13,7 @@
 | [skbj-vip-unlock.user.js](skbj-vip-unlock.user.js) | SKBJ VIP/付费内容解锁 |
 | [某角去广告.js](某角去广告.js) | 海角广告屏蔽 + m3u8 提取 + HLS 播放 |
 | [某肉去广告+下载.js](某肉去广告+下载.js) | rou.video 去广告 + 下载 + 隐私风险检测 |
+| [Porn87去广告下载.js](Porn87去广告下载.js) | Porn87 去广告 + 视频下载 |
 | [糖心去广告+下载.js](糖心去广告+下载.js) | 糖心Vlog HLS 影片下载 |
 
 ## 🚀 安装方法

@@ -12,6 +12,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-tags: true
 
       - name: Get next version
         id: version
@@ -34,7 +36,15 @@ jobs:
             自动发布的去广告/视频下载脚本合集。
 
             ### 脚本列表
-            ${{ join(steps.changelog.outputs.lines, '\n') }}
+            - 18j去广告
+            - 91去广告
+            - banana去广告+VIP
+            - javporn去广告
+            - Porn87去广告下载
+            - skbj-vip-unlock
+            - 某角去广告
+            - 某肉去广告+下载
+            - 糖心去广告+下载
           files: |
             *.js
             index.html

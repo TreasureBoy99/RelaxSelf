@@ -51,15 +51,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload Release Assets
-        if: github.event_name == 'push'
-        run: |
-          for f in *.js; do
-            gh release upload ${{ steps.version.outputs.new }} "$f" --clobber
-          done
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
   deploy:
     runs-on: ubuntu-latest
     permissions:
